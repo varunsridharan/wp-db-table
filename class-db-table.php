@@ -17,14 +17,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if ( ! class_exists( 'DB_Table' ) ) {
-	require_once __DIR__ . 'vendor/thewpleague/wp-query-builder/src/traits/class-escape.php';
-	require_once __DIR__ . 'vendor/thewpleague/wp-query-builder/src/traits/class-groupby.php';
-	require_once __DIR__ . 'vendor/thewpleague/wp-query-builder/src/traits/class-orderby.php';
-	require_once __DIR__ . 'vendor/thewpleague/wp-query-builder/src/traits/class-select.php';
-	require_once __DIR__ . 'vendor/thewpleague/wp-query-builder/src/traits/class-translate.php';
-	require_once __DIR__ . 'vendor/thewpleague/wp-query-builder/src/traits/class-where.php';
-	require_once __DIR__ . 'vendor/thewpleague/wp-query-builder/src/class-query-builder.php';
-
 	/**
 	 * Class DB_Table
 	 *
