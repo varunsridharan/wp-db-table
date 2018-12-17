@@ -1,0 +1,17 @@
+{
+  "name"        : "varunsridharan/wp-db-table",
+  "description" : "A base WordPress database table class with query builder",
+  "type"        : "library",
+  "license"     : "GPL-3.0-or-later",
+  "authors"     : [
+	{
+	  "name"     : "Varun Sridharan",
+	  "email"    : "varunsridharan23@gmail.com",
+	  "homepage" : "https://varunsridharan.in",
+	  "role"     : "Developer"
+	}
+  ],
+  "require"     : {
+	"thewpleague/wp-query-builder" : "^1.0.9"
+  }
+}
