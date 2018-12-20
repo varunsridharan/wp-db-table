@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die;
 }
 
-if ( ! class_exists( 'DB_Table' ) ) {
+if ( ! class_exists( '\Varunsridharan\WordPress\DB_Table' ) ) {
 	/**
 	 * Class DB_Table
 	 *
