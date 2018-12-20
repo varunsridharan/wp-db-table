@@ -15,8 +15,8 @@
 	"thewpleague/wp-query-builder" : "^1.0.9"
   },
   "autoload"    : {
-	"files" : [
-	  "class-db-table.php"
-	]
+	"psr-4" : {
+	  "Varunsridharan\\WordPress\\" : "./src"
+	}
   }
 }
