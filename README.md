@@ -22,3 +22,7 @@ Or **install it manually**:
 
     $ wget https://raw.githubusercontent.com/varunsridharan/wp-db-table/master/class-db-table.php
 
+
+---
+## Sponsored By
+[![DigitalOcean](https://vsp.ams3.cdn.digitaloceanspaces.com/cdn/DO_Logo_Horizontal_Blue.png)](https://s.svarun.in/Ef)
