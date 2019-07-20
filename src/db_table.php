@@ -133,7 +133,7 @@ if ( ! class_exists( '\Varunsridharan\WordPress\DB_Table' ) ) {
 		/**
 		 * Returns Current Instance / create a new instance
 		 *
-		 * @return self
+		 * @return self|static
 		 */
 		public static function instance() {
 			if ( ! isset( self::$_instances[ static::class ] ) ) {
