@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class Varunsridharan\WordPress\DB_Table</title>
+
+	<link rel="stylesheet" href="resources/style.css?c2f33731c1948fbed7c333554678bfa68d4817da">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-Varunsridharan.html">
+						Varunsridharan<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-Varunsridharan.WordPress.html">
+						WordPress					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Varunsridharan.WordPress.DB_Table.html">DB_Table</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Varunsridharan.WordPress.html" title="Summary of Varunsridharan\WordPress"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class DB_Table</h1>
+
+
+	<div class="description">
+	<p>Class DB_Table</p>
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+TheLeague\Database\Query_Builder
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>Varunsridharan\WordPress\DB_Table</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		<b>Abstract</b><br>
+		
+		<b>Namespace:</b> <a href="namespace-Varunsridharan.html">Varunsridharan</a>\<a href="namespace-Varunsridharan.WordPress.html">WordPress</a><br>
+		<b>Package:</b> Varunsridharan\WordPress<br>
+
+				<b>Author:</b>
+				<p>Varun Sridharan <a href="&#109;&#x61;i&#108;&#x74;&#111;&#58;&#x76;&#97;&#114;&#x75;&#110;&#115;&#x72;&#105;&#x64;&#x68;&#97;&#x72;&#x61;&#110;&#x32;3&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#x76;&#97;&#114;&#x75;&#110;&#115;&#x72;&#105;&#x64;&#x68;&#97;&#x72;&#x61;&#110;&#x32;3&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></p>
+
+<p>A base WordPress database table class, which facilitates the creation of
+and schema changes to individual database tables.</p>
+
+<p>This class is intended to be extended for each unique database table,
+including global multisite tables and users tables.</p>
+
+<p>It exists to make managing database tables in WordPress as easy as possible.</p>
+
+<p>Extending this class comes with several automatic benefits:
+- Activation hook makes it great for plugins
+- Tables store their versions in the database independently
+- Tables upgrade via independent upgrade abstract methods
+- Multisite friendly - site tables switch on "switch_blog" action</p><br>
+			<b>Located at</b> <a href="source-class-Varunsridharan.WordPress.DB_Table.html#13-356" title="Go to source code">src/DB_Table.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Varunsridharan.WordPress.DB_Table.html#103-131" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			<p>DB_Table constructor.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>DB_Table constructor.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="instance" id="_instance">
+
+		<td class="attributes"><code>
+			 public static
+
+			<code><a href="class-Varunsridharan.WordPress.DB_Table.html">Varunsridharan\WordPress\DB_Table</a></code>|static
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_instance">#</a>
+		<code><a href="source-class-Varunsridharan.WordPress.DB_Table.html#133-143" title="Go to source code">instance</a>( )</code>
+
+		<div class="description short">
+			<p>Returns Current Instance / create a new instance</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns Current Instance / create a new instance</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Varunsridharan.WordPress.DB_Table.html">Varunsridharan\WordPress\DB_Table</a></code>|static
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_schema" id="_set_schema">
+
+		<td class="attributes"><code>
+			abstract protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_schema">#</a>
+		<code><a href="source-class-Varunsridharan.WordPress.DB_Table.html#145-148" title="Go to source code">set_schema</a>( )</code>
+
+		<div class="description short">
+			<p>Setup this database table</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Setup this database table</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="upgrade" id="_upgrade">
+
+		<td class="attributes"><code>
+			abstract protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_upgrade">#</a>
+		<code><a href="source-class-Varunsridharan.WordPress.DB_Table.html#150-153" title="Go to source code">upgrade</a>( )</code>
+
+		<div class="description short">
+			<p>Upgrade this database table</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Upgrade this database table</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="table_name" id="_table_name">
+
+		<td class="attributes"><code>
+			abstract protected 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_table_name">#</a>
+		<code><a href="source-class-Varunsridharan.WordPress.DB_Table.html#155-160" title="Go to source code">table_name</a>( )</code>
+
+		<div class="description short">
+			<p>Provides Table Name.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Provides Table Name.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="table_version" id="_table_version">
+
+		<td class="attributes"><code>
+			abstract protected 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_table_version">#</a>
+		<code><a href="source-class-Varunsridharan.WordPress.DB_Table.html#162-167" title="Go to source code">table_version</a>( )</code>
+
+		<div class="description short">
+			<p>Provides Table Version Number.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Provides Table Version Number.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="switch_blog" id="_switch_blog">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_switch_blog">#</a>
+		<code><a href="source-class-Varunsridharan.WordPress.DB_Table.html#169-181" title="Go to source code">switch_blog</a>( <span>integer <var>$site_id</var> = <span class="php-num">0</span> </span> )</code>
+
+		<div class="description short">
+			<p>Update table version &amp; references.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Update table version &amp; references.</p>
+
+<p>Hooked to the "switch_blog" action.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$site_id</var></dt>
+					<dd>The site being switched to</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="maybe_upgrade" id="_maybe_upgrade">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_maybe_upgrade">#</a>
+		<code><a href="source-class-Varunsridharan.WordPress.DB_Table.html#183-208" title="Go to source code">maybe_upgrade</a>( )</code>
+
+		<div class="description short">
+			<p>Maybe upgrade the database table. Handles creation &amp; schema changes.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Maybe upgrade the database table. Handles creation &amp; schema changes.</p>
+
+<p>Hooked to the "admin_init" action.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="after_table_created" id="_after_table_created">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_after_table_created">#</a>
+		<code><a href="source-class-Varunsridharan.WordPress.DB_Table.html#306-310" title="Go to source code">after_table_created</a>( )</code>
+
+		<div class="description short">
+			<p>Works As A Built In Hook To Provide a Option to run after table is created.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Works As A Built In Hook To Provide a Option to run after table is created.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="name" id="$name">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Varunsridharan.WordPress.DB_Table.html#35-40" title="Go to source code"><var>$name</var></a>
+
+			<div class="description short">
+				<p>Table name, without the global table prefix</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Table name, without the global table prefix</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$name" class="anchor">#</a>
+				<code><span class="php-quote">''</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="version" id="$version">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Varunsridharan.WordPress.DB_Table.html#42-47" title="Go to source code"><var>$version</var></a>
+
+			<div class="description short">
+				<p>Database version</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Database version</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$version" class="anchor">#</a>
+				<code><span class="php-num">0</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="global" id="$global">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Varunsridharan.WordPress.DB_Table.html#49-54" title="Go to source code"><var>$global</var></a>
+
+			<div class="description short">
+				<p>Is this table for a site, or global</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Is this table for a site, or global</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$global" class="anchor">#</a>
+				<code><span class="php-keyword1">false</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="db_version_key" id="$db_version_key">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Varunsridharan.WordPress.DB_Table.html#56-61" title="Go to source code"><var>$db_version_key</var></a>
+
+			<div class="description short">
+				<p>Database version key (saved in _options or _sitemeta)</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Database version key (saved in _options or _sitemeta)</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$db_version_key" class="anchor">#</a>
+				<code><span class="php-quote">''</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="db_version" id="$db_version">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Varunsridharan.WordPress.DB_Table.html#63-68" title="Go to source code"><var>$db_version</var></a>
+
+			<div class="description short">
+				<p>Current database version</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Current database version</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$db_version" class="anchor">#</a>
+				<code><span class="php-num">0</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="schema" id="$schema">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Varunsridharan.WordPress.DB_Table.html#70-75" title="Go to source code"><var>$schema</var></a>
+
+			<div class="description short">
+				<p>Table schema</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Table schema</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$schema" class="anchor">#</a>
+				<code><span class="php-quote">''</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="prefix" id="$prefix">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Varunsridharan.WordPress.DB_Table.html#77-80" title="Go to source code"><var>$prefix</var></a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$prefix" class="anchor">#</a>
+				<code><span class="php-keyword1">null</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="charset_collation" id="$charset_collation">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Varunsridharan.WordPress.DB_Table.html#82-87" title="Go to source code"><var>$charset_collation</var></a>
+
+			<div class="description short">
+				<p>Database character-set &amp; collation for table</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Database character-set &amp; collation for table</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$charset_collation" class="anchor">#</a>
+				<code><span class="php-quote">''</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="db" id="$db">
+		<td class="attributes"><code>
+			protected  
+			wpdb
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Varunsridharan.WordPress.DB_Table.html#89-94" title="Go to source code"><var>$db</var></a>
+
+			<div class="description short">
+				<p>WPDB Database object (usually $GLOBALS['wpdb'])</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>WPDB Database object (usually $GLOBALS['wpdb'])</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$db" class="anchor">#</a>
+				<code><span class="php-keyword1">false</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="_instances" id="$_instances">
+		<td class="attributes"><code>
+			protected static 
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Varunsridharan.WordPress.DB_Table.html#96-101" title="Go to source code"><var>$_instances</var></a>
+
+			<div class="description short">
+				<p>Stores Multiple Class Instance.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Stores Multiple Class Instance.</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$_instances" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js?58699d70ee1015ed63e509c64f4dd9d3b29ddbbe"></script>
+<script src="elementlist.js?ad6898124ffc40eebe26ddaac4dd1287824e19be"></script>
+</body>
+</html>
