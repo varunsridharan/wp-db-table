@@ -3,10 +3,6 @@
 
 namespace Varunsridharan\WordPress;
 
-if ( ! defined( 'ABSPATH' ) ) {
-	die;
-}
-
 use TheLeague\Database\Query_Builder;
 
 if ( ! class_exists( '\Varunsridharan\WordPress\DB_Table' ) ) {
